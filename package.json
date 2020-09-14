@@ -1,0 +1,21 @@
+{
+  "name": "swagger-jsdoc-node",
+  "version": "1.0.0",
+  "description": "example swagger and jsdoc",
+  "main": "app.js",
+  "author": "Gilberto Suarez",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon ./src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "swagger-jsdoc": "^4.0.0",
+    "swagger-ui-express": "^4.1.4"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "nodemon": "^2.0.4"
+  }
+}
